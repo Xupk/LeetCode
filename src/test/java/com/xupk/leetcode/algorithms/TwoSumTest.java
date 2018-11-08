@@ -19,4 +19,9 @@ public class TwoSumTest {
         assertArrayEquals(twoSum.twoSum(new int[] {1,2,3,4},3),new int[]{0,1});
     }
 
+    @org.junit.Test
+    public void twoSum2() throws Exception {
+        assertArrayEquals(twoSum.twoSum2(new int[] {1,2,3,4},3),new int[]{0,1});
+    }
+
 }
